@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.dancing-script-uniquifier {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
+.box{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.dark{
+  background-color: rgb(60, 60, 60);
+  color: white;
+
+ 
+}
+.dark input[type="text"],.dark select{
+
+  background-color : rgb(60, 60, 60); 
+  border: 1px solid gray;
+  color: white;
+}
